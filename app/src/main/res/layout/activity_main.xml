@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/scoreback"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/highestScore"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="15dp"
+       android:text="Score : 0"
+       android:textAlignment="center"
+       android:textSize="28sp">
+
+   </TextView>
+
+   <TextView
+       android:id="@+id/score"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="15dp"
+       android:text="Score : 0"
+       android:textAlignment="center"
+       android:textSize="28sp">
+
+   </TextView>
+
+   <Button
+       android:id="@+id/goBtn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="15dp"
+       android:backgroundTint="@color/btnColor"
+       android:gravity="center"
+       android:text="@string/playBtn"
+       android:textSize="26sp">
+
+   </Button>
+
+</LinearLayout>
